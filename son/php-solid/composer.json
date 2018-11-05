@@ -1,0 +1,19 @@
+{
+    "name": "erik/solid",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "authors": [
+        {
+            "name": "Erik Figueiredo",
+            "email": "erik.figueiredo@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "Solid\\Html\\": "src"
+      }
+    }
+}
